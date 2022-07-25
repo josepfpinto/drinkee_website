@@ -53,7 +53,7 @@ function App() {
                             <div className="container">
                                 <div className="hero-inner">
                         <div className="hero-copy">
-                                    <h1 className="hero-title mt-0">Landing template for startups</h1>
+                                    <h1 className="hero-title mt-0">Drinkee App</h1>
                                     <p className="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
                                     <div className="hero-cta"><a className="button button-shadow" href="#">Learn more</a><a className="button button-primary button-shadow" href="#">Early access</a></div>
                         </div>
