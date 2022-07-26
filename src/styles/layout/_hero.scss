@@ -1,7 +1,8 @@
 .hero {
 	text-align: center;
-    padding-top: 48px;
+    padding-top: 0px;
 	padding-bottom: 24px;
+	margin-top: -30px;
 }
 
 .hero-copy {
@@ -18,7 +19,7 @@
 
 .hero-app-illustration {
 	position: absolute;
-	top: -358px;
+	top: -258px;
 	left: calc(50% - 436px);
 	pointer-events: none;
 }
@@ -29,7 +30,7 @@
 }
 
 .hero-app-dots-1 {
-	top: 15px;
+	top: 0px;
 	left: -108px;
 }
 
@@ -40,7 +41,7 @@
 
 .device-mockup {
 	position: relative;
-	width: 350px;
+	width: 470px;
 	height: auto;
 	margin: 0 auto;
 	visibility: visible;
@@ -60,6 +61,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 40px;
+	text-align: center;
 }
 
 @include media( '<medium' ) {
@@ -85,7 +87,7 @@
     .hero {
 		position: relative;
 		text-align: left;
-        padding-top: 56px;
+        padding-top: 0px;
         padding-bottom: 12px;
 
 		&::before {

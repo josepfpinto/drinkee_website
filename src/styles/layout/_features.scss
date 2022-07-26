@@ -1,8 +1,6 @@
 .features {
-
-	.section-title {
-		margin-bottom: 48px;
-	}
+	margin-top: 50px;
+	margin-bottom: -100px;
 }
 
 .features-wrap {
@@ -32,6 +30,11 @@
     height: 100%;
 }
 
+.feature-icon {
+    // height: 10%;
+    width: 20%;
+}
+
 .feature-title {
 	@include font-family(base);
 	@include font-weight(medium);
@@ -48,7 +51,7 @@
 
 		.section-title {
 			position: relative;
-			margin-bottom: 80px;
+			margin-bottom: 40px;
 
 			&::before {
 				content: '';
@@ -75,7 +78,7 @@
     .features-wrap {
 
         &:first-of-type {
-            margin-top: -32px;
+            margin-top: -12px;
         }
 
         &:last-of-type {
@@ -84,6 +87,6 @@
     }
 
     .feature {
-        padding: 32px 30px;
+        padding: 12px 30px;
     }
 }

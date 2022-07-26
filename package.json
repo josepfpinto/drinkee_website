@@ -17,6 +17,7 @@
     "react-scripts": "^5.0.1",
     "sass": "^1.54.0",
     "sass-loader": "^13.0.2",
+    "swiper": "^8.3.2",
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4",
     "webpack": "^5.73.0"
@@ -46,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.14",
     "file-loader": "^6.2.0"
   }
 }
