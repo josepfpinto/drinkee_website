@@ -23,8 +23,6 @@ function FunctionalComponent() {
                     grabCursor={true}
                     centeredSlides={true}
                     slidesPerView={1}
-                    initialSlide={1}
-                    slideNextClass={".nextCarousel"}
                     coverflowEffect={{
                         rotate: 50,
                         stretch: 0,
@@ -68,8 +66,6 @@ function FunctionalComponent() {
                     grabCursor={true}
                     centeredSlides={true}
                     slidesPerView={3}
-                    initialSlide={1}
-                    slideNextClass={".nextCarousel"}
                     coverflowEffect={{
                         rotate: 50,
                         stretch: 0,
