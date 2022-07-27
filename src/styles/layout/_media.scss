@@ -86,20 +86,29 @@
 .hero-media-dots {
 	display: none;
 	position: relative;
-	bottom: 220px;
-	left: -40px;
+	bottom: 30%; // 220px;
+	left: -5% // -40px;
 }
 
-.carousel {
-	margin-top: 40px;
-	margin-bottom: -450px;
 
-	.hero-media-dots {
-		display:block;
+.carousel {
+	margin-top: 10%;
+	margin-bottom: -25%;
+
+}
+
+@media only screen and (min-width: 768px) {
+	.carousel {
+		margin-top: 5%; // 40px;
+		margin-bottom: -57%; // -450px;
+
+		.hero-media-dots {
+			display: block;
+		}
 	}
 }
 
-@include media('>medium') {
+@include media('>small') {
 
 	.media {
 

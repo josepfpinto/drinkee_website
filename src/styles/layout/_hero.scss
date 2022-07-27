@@ -1,8 +1,17 @@
 .hero {
 	text-align: center;
-    padding-top: 0px;
-	padding-bottom: 24px;
-	margin-top: -30px;
+    padding-top: 15%;
+	// padding-bottom: 5%;
+	margin-top: -3%;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero {
+		text-align: center;
+		padding-top: 0px;
+		// padding-bottom: -30%;
+		margin-top: -3%;
+	}
 }
 
 .hero-copy {
@@ -10,7 +19,7 @@
 }
 
 .hero-paragraph {
-    margin-bottom: 32px;
+    margin-bottom: 5%;
 }
 
 .hero-app {

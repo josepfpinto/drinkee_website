@@ -1,6 +1,13 @@
 .swiper {
-    width: 600px;
-    height: 500px;
+    width: 420px;
+    height: 400px;
+}
+
+@media only screen and (min-width: 768px) {
+    .swiper {
+        width: 75%; // 600px;
+        height: 500px;
+    }
 }
 
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -12,5 +19,4 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     //background-color: #fff !important;
     background: #fff !important;
     opacity: 0.3 !important;
-    
 }
