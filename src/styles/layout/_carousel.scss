@@ -1,12 +1,19 @@
 .swiper {
-    width: 380px;
-    height: 400px;
+    width: 370px;
+    height: 345px;
+}
+
+@media only screen and (min-width: 600px) {
+    .swiper {
+        width: 450px;
+        height: 400px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
     .swiper {
-        width: 75%; // 600px;
-        height: 500px;
+        width: 370px;
+        height: 345px;
     }
 }
 
