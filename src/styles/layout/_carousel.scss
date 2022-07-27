@@ -3,7 +3,7 @@
     height: 345px;
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
     .swiper {
         width: 450px;
         height: 400px;
@@ -12,8 +12,8 @@
 
 @media only screen and (min-width: 768px) {
     .swiper {
-        width: 370px;
-        height: 345px;
+        width: 75%; // 600px;
+        height: 500px;
     }
 }
 
