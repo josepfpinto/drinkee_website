@@ -8,7 +8,7 @@ import dots1 from './dots1';
 import dots2 from './dots2';
 import illustration from './main_illustration';
 import logo from '../images/Drinkee_logo.svg';
-import qr_code from '../images/qr_code.svg';
+// import qr_code from '../images/qr_code.svg';
 
 function App() {
     return (
