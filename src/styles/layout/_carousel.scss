@@ -1,9 +1,17 @@
 .swiper {
-    width: 370px;
-    height: 345px;
+    width: 280px;
+    height: 680px;
 }
 
-@media (min-width: 600px) {
+.swiper-slide {
+    opacity: 0.2;
+}
+
+.swiper-slide-active {
+    opacity: 1;
+}
+
+@media (min-width: 650px) {
     .swiper {
         width: 450px;
         height: 400px;
