@@ -32,8 +32,11 @@ function App() {
                                             <img className="feature-logo" src={logo} alt="drinkee logo" />
                                             <h1 className="hero-title mt-0">Drinkee App</h1>
                                             <p className="hero-paragraph">Break the ice and connect with new friends on your next event. (alpha version - iOS in development)</p>
-                                            <div className="hero-cta"><img className="qr-code" src={qr_code} alt="QR code" /></div>
-                                            <div className="hero-cta"><a className="button button-shadow" href="https://qrco.de/bdCXmI" target="_blank" rel="noreferrer">Get App in Google Play Store</a></div>
+                                            <br></br>
+                                            <br></br>
+                                            <h2 className="hero-title mt-0"> [Coming Soon] </h2>
+                                            {/* <div className="hero-cta"><img className="qr-code" src={qr_code} alt="QR code" /></div> -->
+                                            <div className="hero-cta"><a className="button button-shadow" href="https://qrco.de/bdCXmI" target="_blank" rel="noreferrer">Get App in Google Play Store</a></div> */}
                                         </div>
                                         <div className="hero-app">
                                             {illustration()}
