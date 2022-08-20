@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/style.scss';
 import logo_white from '../images/Drinkee_logo_white.svg';
 import github from '../images/github_logo.svg';
-import { Button, OnClickActions, ButtonInfo } from './buttons';
+import { Button, OnClickActions } from './buttons';
 
 
 function FunctionalComponent(props: OnClickActions) {
