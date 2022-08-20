@@ -60,7 +60,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 Email - <a href="mailto:appdrinkee@gmail.com">appdrinkee@gmail.com</a>
 
-José Pedro Pinto - [@linkedin](https://www.linkedin.com/in/josepfpinto/)
+José Pedro Pinto - [@linkedIn](https://www.linkedin.com/in/josepfpinto/)
 
 Project Link: [https://github.com/josepfpinto/drinkee_website](https://github.com/josepfpinto/drinkee_website)
 <br />
