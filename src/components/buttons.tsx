@@ -17,7 +17,7 @@ function Button(props: ButtonInfo) {
     const currentClass = props.location === 'popup' ? 'cookies-link-popup' : 'cookies-link-footer';
     return (
         <button className={currentClass} onClick={props.onClick}>
-            {props.type === 'cookies' ? 'Cookies' : 'Privacy Policy'}
+            {props.type === 'cookies' ? 'Cookies Policy' : 'Privacy Policy'}
         </button>
     );
 }

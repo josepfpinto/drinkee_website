@@ -18,7 +18,7 @@ function FunctionalComponent(props: OnClickActions) {
         buttonStyle={{ backgroundColor: "#F54B64", fontSize: "15px" }}
         expires={120}
     >
-        This website uses cookies. <Button {...cookiesButton} /> & <Button {...privacyButton} />
+        This website uses cookies. <Button {...cookiesButton} />
     </CookieConsent>
 }
 
