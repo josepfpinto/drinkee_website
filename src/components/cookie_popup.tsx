@@ -6,7 +6,6 @@ import {Button, OnClickActions} from './buttons';
 
 function FunctionalComponent(props: OnClickActions) {
     const cookiesButton = { onClick: props.cookies, type: 'cookies', location: 'popup' }
-    const privacyButton = { onClick: props.privacy, type: 'privacy', location: 'popup' }
 
     return <CookieConsent
         buttonClasses="button button-cookies"
