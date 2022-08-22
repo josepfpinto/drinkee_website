@@ -41,7 +41,7 @@ class App extends React.Component<any, any> {
                         <meta charSet="utf-8" />
                         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                         <meta name="viewport" content="width=device-width, initial-scale=1" />
-                        <title>Drinke App</title>
+                        <title>Drinkee App</title>
                         <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700|Playfair+Display:700" rel="stylesheet" />
                         <link rel="stylesheet" href="styles/style.css" />
                     </head>
