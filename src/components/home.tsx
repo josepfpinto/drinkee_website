@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react'
 import '../styles/style.scss';
 import phone from '../images/phone_frame.png';
 import carousel from './carousel';
@@ -8,10 +8,23 @@ import dots2 from './dots2';
 import illustration from './main_illustration';
 import logo from '../images/Drinkee_logo.svg';
 // import qr_code from '../images/qr_code.svg';
+import Footer from './footer';
+import { Component } from 'react';
 
-function FunctionalComponent() {
-    return (
-        <main>
+
+export default class Home extends Component {
+    constructor(props: {} | Readonly<{}>) {
+        super(props);
+
+        this.state = {};
+    }
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
+    render() {
+        return <main>
             <section className="hero">
                 <div className="container">
                     <div className="hero-inner">
@@ -60,8 +73,12 @@ function FunctionalComponent() {
                     </div>
                 </div>
             </section>
-        </main>
-    );
-}
 
-export default FunctionalComponent;
+            <script src="dist/js/main.min.js"></script>
+
+            <footer className="site-footer">
+                {Footer()}
+            </footer>
+        </main>
+    }
+}

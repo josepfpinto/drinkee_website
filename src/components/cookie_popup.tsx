@@ -1,12 +1,10 @@
 import React from 'react';
 import '../styles/style.scss';
 import CookieConsent from "react-cookie-consent";
-import {Button, OnClickActions} from './buttons';
+import { Link } from "react-router-dom";
 
 
-function FunctionalComponent(props: OnClickActions) {
-    const cookiesButton = { onClick: props.cookies, type: 'cookies', location: 'popup' }
-
+function FunctionalComponent() {
     return <CookieConsent
         buttonClasses="button button-cookies"
         buttonWrapperClasses="button-wrapper-cookies"
@@ -17,7 +15,7 @@ function FunctionalComponent(props: OnClickActions) {
         buttonStyle={{ backgroundColor: "#F54B64", fontSize: "15px" }}
         expires={120}
     >
-        This website uses cookies. <Button {...cookiesButton} />
+        This website uses cookies. <Link to="/cookies">Cookies Policy</Link>
     </CookieConsent>
 }
 

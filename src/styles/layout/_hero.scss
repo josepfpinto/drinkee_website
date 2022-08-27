@@ -1,12 +1,12 @@
 .hero {
 	text-align: center;
-    padding-top: 15%;
+	padding-top: 15%;
 	// padding-bottom: 5%;
 	margin-top: -3%;
 }
 
 @media only screen and (min-width: 650px) {
-    .hero {
+	.hero {
 		text-align: center;
 		padding-top: 0px;
 		// padding-bottom: -30%;
@@ -15,11 +15,16 @@
 }
 
 .hero-copy {
-    position: relative; /* To display elements above hero illustrations */
+	position: relative;
+	/* To display elements above hero illustrations */
+	padding-top: 88px;
+	padding-right: 48px;
+	min-width: 448px;
+	max-width: auto;
 }
 
 .hero-paragraph {
-    margin-bottom: 5%;
+	margin-bottom: 5%;
 }
 
 .hero-app {
@@ -73,14 +78,14 @@
 	text-align: center;
 }
 
-@include media( '<medium' ) {
+@include media('<medium') {
 
 	.hero-cta {
 
 		.button {
 			display: flex;
 
-			+ .button {
+			+.button {
 				margin-top: 16px;
 			}
 		}
@@ -91,13 +96,13 @@
 	}
 }
 
-@include media( '>medium' ) {
+@include media('>medium') {
 
-    .hero {
+	.hero {
 		position: relative;
 		text-align: left;
-        padding-top: 0px;
-        padding-bottom: 12px;
+		padding-top: 0px;
+		padding-bottom: 12px;
 
 		&::before {
 			content: '';
@@ -108,7 +113,7 @@
 			height: 461px;
 			background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDE1IiBoZWlnaHQ9IjQ2MSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gIDxkZWZzPiAgICA8bGluZWFyR3JhZGllbnQgeDE9IjguNjg1JSIgeTE9IjIzLjczMyUiIHgyPSI5OS40MzUlIiB5Mj0iODUuMDc4JSIgaWQ9ImEiPiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMxRDMwNEIiIG9mZnNldD0iMCUiLz4gICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjMUQzMDRCIiBzdG9wLW9wYWNpdHk9IjAiIG9mZnNldD0iMTAwJSIvPiAgICA8L2xpbmVhckdyYWRpZW50PiAgPC9kZWZzPiAgPHBhdGggZD0iTTMxOC4xNzEgNjE2LjY0YzE2MC4wODYgMCA3MDIuNTI3LTIyOC4yNiAyODkuODYyLTI5MC00MTIuNjY2LTYxLjczOC0xMjkuNzc2LTI5MC0yODkuODYyLTI5MFMyOC4zMSAxNjYuNDc5IDI4LjMxIDMyNi42NGMwIDE2MC4xNjMgMTI5Ljc3NSAyOTAgMjg5Ljg2MSAyOTB6IiB0cmFuc2Zvcm09InJvdGF0ZSgtNiAtMTMyNy4wMyAzNTk0LjM4KSIgZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+);
 		}
-    }
+	}
 
 	.hero-inner {
 		/* Split hero in two half */
@@ -116,12 +121,12 @@
 		justify-content: space-between;
 	}
 
-    .hero-copy {
-        padding-top: 88px;
-        padding-right: 48px;
-        min-width: 448px;
-        max-width: 588px;
-    }
+	.hero-copy {
+		padding-top: 88px;
+		padding-right: 48px;
+		min-width: 448px;
+		max-width: auto;
+	}
 
 	.hero-title {
 		margin-bottom: 24px;

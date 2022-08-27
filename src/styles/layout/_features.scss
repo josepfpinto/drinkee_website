@@ -26,13 +26,17 @@
 	flex-grow: 1;
 }
 
+.section-title {
+	text-align: center;
+}
+
 .feature-inner {
 	height: 100%;
 }
 
 .feature-icon {
-	// height: 10%;
-	width: 20%;
+	display: flex;
+	justify-content: center;
 }
 
 .feature-title {
@@ -42,7 +46,7 @@
 }
 
 @media only screen and (min-width: 650px) {
-    .feature-title {
+	.feature-title {
 		@include font-family(base);
 		@include font-weight(medium);
 		text-align: left;
@@ -50,6 +54,10 @@
 }
 
 @include media('>medium') {
+	.feature-icon {
+		width: 20%;
+		// justify-content: left;
+	}
 
 	.features {
 		position: relative;
@@ -59,6 +67,7 @@
 		}
 
 		.section-title {
+			text-align: left;
 			position: relative;
 			margin-bottom: 40px;
 

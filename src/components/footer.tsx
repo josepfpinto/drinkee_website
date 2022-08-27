@@ -2,32 +2,26 @@ import React from 'react';
 import '../styles/style.scss';
 import logo_white from '../images/Drinkee_logo_white.svg';
 import github from '../images/github_logo.svg';
-import { Button, OnClickActions } from './buttons';
+import { Link } from "react-router-dom";
 
 
-function FunctionalComponent(props: OnClickActions) {
-    const cookiesButton = { onClick: props.cookies, type: 'cookies', location: 'footer' }
-    const privacyButton = { onClick: props.privacy, type: 'privacy', location: 'footer' }
-    const homeAction = (event: React.MouseEvent<HTMLImageElement>) => {
-        event.stopPropagation();
-        props.home();
-    };
-
+function FunctionalComponent() {
     return (
         <div className="container">
             <div className="site-footer-inner has-top-divider">
                 <div className="brand footer-brand">
-                    <img className="icon-button" src={logo_white} alt="drinkee logo" onClick={homeAction}  />
+                    <Link to="/"><img className="icon-button" src={logo_white} alt="drinkee logo" /></Link>
+
                 </div>
                 <ul className="footer-links list-reset">
                     <li>
                         <a href="mailto:appdrinkee@gmail.com">Contact</a>
                     </li>
                     <li>
-                        <Button {...cookiesButton} />
+                        <Link to="/cookies">Cookies Policy</Link>
                     </li>
                     <li>
-                        <Button {...privacyButton} />
+                        <Link to="/privacy">Privacy Policy</Link>
                     </li>
                 </ul>
                 <ul className="footer-social-links list-reset">
