@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/style.scss';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Cookies_popup from './cookie_popup';
 
 const Main = () => {
