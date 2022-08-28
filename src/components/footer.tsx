@@ -27,7 +27,7 @@ function FunctionalComponent() {
                 <ul className="footer-social-links list-reset">
 
                     <li>
-                        <a href="https://github.com/drinkee-git/drinkee" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/josepfpinto/drinkee_website" target="_blank" rel="noreferrer">
                             <span className="screen-reader-text">GitHub</span>
                             <img src={github} alt="github logo" />
                         </a>
