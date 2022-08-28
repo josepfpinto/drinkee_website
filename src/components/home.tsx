@@ -33,7 +33,7 @@ export default class Home extends Component {
                             <h1 className="hero-title mt-0">Drinkee App</h1>
                             <p className="hero-paragraph">Break the ice and connect with new friends on your next event. (testing alpha version - iOS in development)</p>
                             <div className="hero-cta"><img className="qr-code" src={qr_code} alt="QR code" /></div>
-                            <div className="hero-cta"><a className="button button-shadow" href="https://qrco.de/bdCXmI" target="_blank" rel="noreferrer">Get App in Google Play Store</a></div>
+                            <div className="hero-cta"><a className="button button-shadow" href="https://play.google.com/store/apps/details?id=com.drinkee.drinkee" target="_blank" rel="noreferrer">Get App in Google Play Store</a></div>
                         </div>
                         <div className="hero-app">
                             {illustration()}
