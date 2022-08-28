@@ -19,13 +19,16 @@
 
 .qr-code {
 	display: inline-flex;
-	width: 45%;
+	width: 60%;
 	height: auto;
-	padding: 10px 25px 20px 5px;
+	padding: 10px 10px 10px 10px;
 	white-space: nowrap;
 }
 
 @include media('>medium') {
+	.qr-code {
+		padding: 10px 25px 20px 5px;
+	}
 
 	.media {
 		position: relative;
