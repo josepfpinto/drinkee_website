@@ -31,9 +31,7 @@ export default class Home extends Component {
                         <div className="hero-copy">
                             <img className="feature-logo" src={logo} alt="drinkee logo" />
                             <h1 className="hero-title mt-0">Drinkee App</h1>
-                            <p className="hero-paragraph">Break the ice and connect with new friends on your next event. (testing alpha version)</p>
-                            <div className="hero-cta"><img className="qr-code" src={qr_code} alt="QR code" /></div>
-                            <div className="hero-cta"><a className="button button-shadow" href="https://play.google.com/store/apps/details?id=com.drinkee.drinkee" target="_blank" rel="noreferrer">Get App in Google Play Store</a></div>
+                            <p className="hero-paragraph">This is a Mobile Social App dedicated to connect people in events. It was developed in Flutter and Dart and the infrastructure is in Google Cloud, with Firebase, Firestore and Firestorage.</p>
                         </div>
                         <div className="hero-app">
                             {illustration()}
